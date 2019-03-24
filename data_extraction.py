@@ -19,3 +19,4 @@ stop = stopwords.words('english')
 document = [i for i in a if i not in stop]
 
 #evaluate 
+print (document)
