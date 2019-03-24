@@ -1,5 +1,10 @@
 # scikit_demo
 Scikit Learn Demo
 
+``
+python
 
-python3 data_extraction.py <<your text file>>
+python data_extraction.py <<your text file>>
+ 
+ 
+``
