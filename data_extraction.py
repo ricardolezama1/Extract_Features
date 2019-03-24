@@ -14,8 +14,16 @@ language_data = open(sys.argv[0], 'r')
 Vectora = vectorizer.fit_transform(language_data)
 a = vectorizer.get_feature_names()
 
-#list nltk stopwords
+#list nltk stopwords,custom and list concatenation helps for adding more stopwords. 
 stop = stopwords.words('english')
+stop1 = stopwords.words('spanish')
+#custom stopword list
+custom = ["クロス"]
+
+
+stop_mega = stop1 + stop2 + custom
+
+
 document = [i for i in a if i not in stop]
 
 #evaluate 
